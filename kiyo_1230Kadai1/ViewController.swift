@@ -9,11 +9,22 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var firstCell: UITextField!
+    @IBOutlet weak var secondCell: UITextField!
+    @IBOutlet weak var thirdCell: UITextField!
+    @IBOutlet weak var fourthCell: UITextField!
+    @IBOutlet weak var fifthCell: UITextField!
+
+    @IBOutlet weak var result: UILabel!
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
+    @IBAction func resultButton(_ sender: Any) {
+        
+    }
 
 }
 

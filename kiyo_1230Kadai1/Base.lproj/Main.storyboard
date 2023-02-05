@@ -56,6 +56,9 @@
                                 <rect key="frame" x="159" y="562" width="75" height="35"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button"/>
+                                <connections>
+                                    <action selector="resultButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uYp-mx-GKs"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -68,6 +71,14 @@
                             <constraint firstItem="RjY-Bm-qvu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="175" id="veA-kn-wbi"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="fifthCell" destination="waO-AU-P3S" id="FAT-YV-xcj"/>
+                        <outlet property="firstCell" destination="Z0a-zK-WG9" id="se4-1O-AJu"/>
+                        <outlet property="fourthCell" destination="0qG-JE-Bn6" id="Hcl-W3-T0G"/>
+                        <outlet property="result" destination="RjY-Bm-qvu" id="Ov6-Jw-ep4"/>
+                        <outlet property="secondCell" destination="YPV-fR-2np" id="yTt-Tl-ya2"/>
+                        <outlet property="thirdCell" destination="K4h-fd-c1l" id="dU5-aP-xtF"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
