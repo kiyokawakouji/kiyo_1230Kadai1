@@ -23,8 +23,6 @@ class ViewController: UIViewController {
     }
 
     @IBAction func resultButton(_ sender: Any) {
-        
     }
 
 }
-
